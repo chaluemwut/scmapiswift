@@ -14,6 +14,9 @@ public class ResponseStatus {
 }
 
 public class RequestParameter {
+    
+    public init() {}
+    
     public var socialMediaType:String = ""
     public var message = ""
     public var twitterId:String = ""
