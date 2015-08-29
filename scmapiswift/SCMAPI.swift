@@ -9,7 +9,15 @@
 import Foundation
 
 public class ResponseStatus {
-    var credValue:Double = 0.0
+    var _credValue:Double = 0.5
+    var credValue:Double {
+        get {
+            return _credValue
+        }
+        set(newCred){
+            _credValue = newCred
+        }
+    }
     var shoudbeMeasurement:Bool = false
     
     
