@@ -9,6 +9,9 @@
 import Foundation
 
 public class ResponseStatus {
+    var credValue:Double = 0.0
+    var shoudbeMeasurement:Bool = false
+    
     
 }
 
@@ -18,6 +21,8 @@ public class SCMAPI {
     
     public func processCredStandard() -> ResponseStatus {
         let ret = ResponseStatus()
+        ret.credValue = 0.5
+        ret.shoudbeMeasurement = true
         return ret
     }
     
