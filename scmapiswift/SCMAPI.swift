@@ -9,18 +9,8 @@
 import Foundation
 
 public class ResponseStatus {
-    var _credValue:Double = 0.5
-    var credValue:Double {
-        get {
-            return _credValue
-        }
-        set(newCred){
-            _credValue = newCred
-        }
-    }
-    var shoudbeMeasurement:Bool = false
-    
-    
+    public var credValue:Double = 0.5
+    public var shoudbeMeasurement:Bool = false        
 }
 
 public class SCMAPI {
